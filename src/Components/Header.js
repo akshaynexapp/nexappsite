@@ -1,6 +1,4 @@
 import React from 'react';
-import Home from '../Pages/Home';
-import AboutUs from '../Pages/About_Us';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Header = () => {
@@ -18,6 +16,9 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Contact_Us">Contact_Us</a>
+              </li>
+              <li className="nav-item">
+              <a className="nav-link" href="/Partner">Partner</a>
             </li>
           </ul>
         </div>

@@ -1,14 +1,12 @@
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import './App.css';
-import Header from "./Components/Header";
-import Home from './Pages/Home';
-import AboutUs from './Pages/About_Us';
+import Routing from './Routing';
+
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <div className='App'>
+      <Routing />
+    </div>
   );
 }
 
