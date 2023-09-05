@@ -1,14 +1,14 @@
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import './App.css';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-
+import Header from "./Components/Header";
+import Home from './Pages/Home';
+import AboutUs from './Pages/About_Us';
 function App() {
   return (
-    <div className="App">
-     <Header/>
-     <Footer/>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
