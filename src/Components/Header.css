@@ -1,0 +1,18 @@
+
+.logo {
+    
+    height: 4rem;
+    width: 10rem;
+}
+#navbarNav {
+    justify-content: space-between;
+}
+.nav-item a{
+  color:whitesmoke; /* Change to your desired text color */
+}
+.dropend a {
+    color:black;
+}
+.drop a {
+    color:black;
+}

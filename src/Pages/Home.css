@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-part {
+    flex: 1;
+    color: whitesmoke;
+    align-items: center;
+    /* Add styles for the left part */
+  }
+  
+  .right-part {
+    flex: 1;
+    margin-top:'0px';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    /* Add styles for the right part */
+  }
+  .demo-button{
+  background-color: #f58d16;
+  color: #fff;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  }
